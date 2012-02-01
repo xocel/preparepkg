@@ -1,0 +1,11 @@
+preparepkg.pl 13.37 (120201)
+
+Usage: preparepkg.pl [options] package_name.txz
+
+Prepares the current and all subdirectories for makepkg by creating
+slack-desc, slack-required and gzipping any uncompressed man pages. 
+Dependencies are automatically determined and written to slack-required. 
+
+options: -r, --required       Generate slack-required.
+         -h, --help           Display usage.
+

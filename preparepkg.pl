@@ -20,7 +20,7 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-# Code repo: github/xocel
+# Repo: https://github.com/xocel/preparepkg
 
 use strict;
 use File::Find;
@@ -339,11 +339,10 @@ sub printUsage() {
 	#Prints usage then exits.
 	print "Usage: preparepkg.pl [options] package_name.txz\n\n";
 	print "Prepares the current and all subdirectories for makepkg by creating\n";
-	print "install/slack-desc and install/slack-required. Automatically determines\n" ;
-	print "required packages for slack-required. If man pages exist they will be gzipped.\n\n";
+	print "slack-desc, slack-required and gzipping any uncompressed man pages.\n" ;
+	print "Dependencies are automatically determined and written to slack-required.\n\n";
 	print "options: -r, --required       Generate slack-required.\n";
-	print "         -h, --help           Display usage.\n\n";
-	print "If these options are not set, preparepkg.pl will prompt as appropriate.\n";
+	print "         -h, --help           Display usage.\n";
 	exit;
 }
 
