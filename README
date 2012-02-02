@@ -9,3 +9,13 @@ Dependencies are automatically determined and written to slack-required.
 options: -r, --required       Generate slack-required.
          -h, --help           Display usage.
 
+------------------------------------------------------------------------
+mkslack-required.pl 13.37 (120201)
+
+Usage: mkslack-required.pl
+
+Run from package root dir. Automatically determines dependencies
+of package and writes them to install/slack-required
+
+
+
