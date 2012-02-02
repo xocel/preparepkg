@@ -17,5 +17,13 @@ Usage: mkslack-required.pl
 Run from package root dir. Automatically determines dependencies
 of package and writes them to install/slack-required
 
+------------------------------------------------------------------------
+lsdeps.pl 13.37 (120202)
+
+Usage: lsdeps.pl package_name
+       e.g lsdeps.pl xchat
+
+Lists dependencies for an installed package.
+
 
 
